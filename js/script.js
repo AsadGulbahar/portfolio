@@ -1,4 +1,4 @@
-```javascript
+
 // ─────────────────────────────────────────────
 // Typing Effect
 // ─────────────────────────────────────────────
@@ -83,4 +83,3 @@ fadeElements.forEach((element, index) => {
   observer.observe(element);
 
 });
-```
