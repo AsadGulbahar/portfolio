@@ -34,7 +34,12 @@ function typeLine2() {
 
 // Start typing when page loads
 window.addEventListener("load", () => {
+
+  line1Element.textContent = "";
+  line2Element.textContent = "";
+
   typeLine1();
+
 });
 
 
